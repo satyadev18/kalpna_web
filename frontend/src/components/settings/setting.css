@@ -1,0 +1,89 @@
+.setting {
+    display:flex;
+
+    margin-top: 40px;
+  }
+
+  .setting-wrapper {
+
+    padding: 20px;
+  }
+
+  .setting-title {
+
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .setting-update-title {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: lightcoral;
+  }
+
+  .setting-delete-title {
+    color: red;
+    font-size: 12px;
+    cursor: pointer;
+  }
+
+  .setting-form {
+    display:flex;
+    flex-direction: column;
+  }
+
+  .setting-pp {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0;
+  }
+
+  .setting-pp> img {
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+    object-fit: cover;
+  }
+
+  .settings-pp-icon {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: lightcoral;
+    color: white;
+
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+
+  .setting-form label {
+    font-size: 20px;
+    align-items:flex-end;
+    margin: 20px;
+  }
+
+  .setting-form  input {
+    color: gray;
+
+    text-align: left;
+    margin: 10px ;
+    margin-left: 20px;
+    height: 30px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+  .setting-submit{
+      width: 150px;
+      align-self: center;
+      border: none;
+      border-radius: 10px;
+      color: white;
+      background-color: teal;
+      padding: 10px;
+      margin-top: 20px;
+      cursor: pointer;
+  }
