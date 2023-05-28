@@ -36,21 +36,21 @@ const storage = multer.diskStorage({
 })
 
 const upload = multer({storage:storage});
-app.post("/api/upload",upload.single("file"),(req,res)=>{
+app.post("/upload",upload.single("file"),(req,res)=>{
     res.status(200).json("File has been uploaded")
 });
 
 // user model routes
-app.use('/api/auth',authRoute);
-app.use('/api/users',userRoute);
+app.use('/auth',authRoute);
+app.use('/users',userRoute);
 
 //post model routes
-app.use('/api/posts',postRoute);
+app.use('/posts',postRoute);
 
 
 
 
 // connect with port
 app.listen(PORT, ()=>{
-    console.log("app running on port 5000")
+    console.log("app running on port 5000");
 })
