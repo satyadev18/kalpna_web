@@ -52,5 +52,5 @@ app.use('/posts',postRoute);
 
 // connect with port
 app.listen(PORT, ()=>{
-    console.log("app running on port 5000");
+    console.log(`app running on port ${PORT}`);
 })
